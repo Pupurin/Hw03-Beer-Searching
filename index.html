@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="build/main.bundle.js"></script>
+    <title>My Beer searching</title>
+</head>
+<body>
+<div class="search_box">
+    <div class="search_type">
+        <table class="search_area">
+            <tr>
+                <th class="search_header">Name : </th>
+                <td><input type="text" id="beer_name" class="search_input" align="right"></td>
+            </tr>
+            <tr>
+                <th class="search_header">Brewed before :</th>
+                <td><input type="text" id="brewed" class="search_input" placeholder="mm/yyyy (eg. 01/2017)"></td>
+            </tr>
+            <tr>
+                <th class="search_header">Food pairing : </th>
+                <td><input type="text" id="food" class="search_input"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="button_search" align="center">
+        <input type="submit" id="btn_search" class="btn_search" name="btnSearch" value="Search"/>
+    </div>
+<div id="table_result"></div>
+</body>
+</html>

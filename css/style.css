@@ -1,0 +1,59 @@
+body {
+    background-color: gray;
+}
+
+.search_box {
+    width: 50%;
+    min-height: 75px;
+    height: 130px;
+    background-color: #DDDDDD;
+    margin: 30px auto 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search_type {
+    margin-top: 20px;
+}
+
+th {
+    padding: 5px;
+}
+
+.cell_padding {
+    padding: 10px;
+}
+
+.search_header {
+    width: 130px;
+    padding-left: 30px;
+	text-align: left;
+}
+
+.search_area {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0px auto auto auto;
+}
+
+.search_input {
+    width: 90%;
+	float: right;
+}
+
+#table_result {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto auto auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn_search {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.button_search {
+    width: 100%;
+}
